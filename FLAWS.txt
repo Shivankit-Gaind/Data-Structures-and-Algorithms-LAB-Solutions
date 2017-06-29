@@ -1,0 +1,5 @@
+FILE SORT -- UNDERSTAND COMPLETELY
+QUICK TEST BED ---- Median of Medians incomplete
+LAB 1 exer1 and exer2 incomplete
+LABTEST 2 - not correct solution
+Open Addressing incomplete

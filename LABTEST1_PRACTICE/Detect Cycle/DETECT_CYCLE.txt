@@ -1,0 +1,106 @@
+**********
+Problem 2:
+**********
+Suppose that the linked list may have a cycle. Then implement the “hare and tortoise” algorithm for detecting a cycle in the linked list: Set two pointers – “hare” and “tortoise” to the first node in the list. Then in lockstep, we move the hare pointer forward by two nodes and the tortoise pointer by one node. In their traversal, if the hare crosses the tortoise, then there is a cycle in the linked list.
+Print the number of nodes of the linked list which are in a cycle. If there is no cycle, then print 0 as output.
+
+Use the the implementation of Linked list that you used for Problem 1.
+
+Input Format:
+1st argument is the theoretical index of node, and second is the value (data) to be inserted in the node.
+Stop when given index is -1.
+
+=================
+Sample Test cases
+=================
+INPUT:
+1	10
+2	30
+3	34
+4	180
+5	435
+6	653
+7	435
+8	44
+9	34
+10	45
+11	5
+12	56
+13	467
+14	98
+3	34
+-1
+
+OUTPUT
+12
+
+------------------------------
+INPUT
+1	233
+2	145
+3	116
+4	50
+5	40
+6	129
+7	342
+8	980
+9	432
+10	905
+11	775
+12	67
+9	432
+-1
+
+OUTPUT
+4
+
+------------------------------
+INPUT
+1	234
+2	56
+3	67
+4	43
+5	97
+6	36
+7	99
+-1
+
+OUTPUT
+0
+-----------------------------
+INPUT
+1	93
+2	119
+3	91
+4	16
+5	27
+6	126
+7	28
+8	53
+9	31
+10	115
+11	237
+12	214
+13	89
+14	434
+15	505
+16	309
+17	399
+18	378
+-1
+
+OUTPUT
+0
+-----------------------------
+INPUT
+1	23
+2	56
+3	423
+4	33
+5	43
+6	55
+1	23
+-1
+
+OUTPUT
+6
